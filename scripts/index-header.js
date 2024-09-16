@@ -9,7 +9,7 @@ const INITIAL_VALUES = {
 var CHAR_LIST;
 
 (function(){
-	// CHAR_LIST = getCharacterList();
+	CHAR_LIST = getCharacterList();
 })();
 
 function getCharacterList(){	
