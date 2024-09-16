@@ -6,27 +6,6 @@ const INITIAL_VALUES = {
 	"length": 24,
 };
 
-var CHAR_LIST;
-
-(function(){
-	CHAR_LIST = getCharacterList();
-})();
-
-function getCharacterList(){	
-	let result;
-
-	let request = new XMLHttpRequest();
-	request.onreadystatechange = function(){
-		if(request.readyState == 4){
-			result = JSON.parse(request.response);
-		}
-	};
-	request.open("GET", CHARACTER_LIST_PATH, true);
-	request.send("");
-
-	return result;
-}
-
 function randomString(length, map){
 	let result = "";
 	for(let i = 0; i < length; i++) result += map.charAt(Math.floor(Math.random() * map.length));
