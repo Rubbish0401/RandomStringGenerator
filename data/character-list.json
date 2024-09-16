@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Number",
+		"name-eng": "number",
+		"default": true,
+		"letters": "0123456789"
+	},
+
+	{
+		"name": "alphabet",
+		"name-eng": "alphabet",
+		"default": true,
+		"letters": "abcdefghijklmnopqrstuvwxyz"
+	},
+	
+	{
+		"name": "Alphabet",
+		"name-eng": "capital-alphabet",
+		"default": true,
+		"letters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	},
+
+	{
+		"name": "ひらがな",
+		"name-eng": "hiragana",
+		"default": false,
+		"letters": "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよわをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉっゃゅょゎ"
+	},
+
+	{
+		"name": "カタカナ",
+		"name-eng": "katakana",
+		"default": false,
+		"letters": "アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨワヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォッャュョヮ"
+	},
+
+	{
+		"name": "ｶﾀｶﾅ",
+		"name-eng": "half-katakana",
+		"default": false,
+		"letters": "ｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃﾄﾅﾆﾇﾈﾉﾊﾋﾌﾍﾎﾏﾐﾑﾒﾓﾔﾕﾖﾜｦﾝｧｨｩｪｫｯｬｭｮヮ"
+	},
+
+	{
+		"name": "記号",
+		"name-eng": "true",
+		"default": true,
+		"letters": "!#$%&`()=-~^|@{}[]+*;:<>.?/_"
+	}
+]

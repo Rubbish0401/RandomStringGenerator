@@ -1,0 +1,114 @@
+<html>
+
+<head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-BH8QRLY634"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-BH8QRLY634');
+	</script>
+
+	<!-- Viewport and Charset -->
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1" />
+	<meta charset="utf-8" />
+
+	<!-- External Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="styles/index.css">
+
+	<!-- Scripts -->
+	<script src="scripts/index-header.js"></script>
+	<script src="scripts/index.js"></script>
+
+	<!-- Others -->
+	<title>
+		Random String Generator
+	</title>
+</head>
+
+<body>
+	<div id="title-bar">
+		<a href="">
+			<span id="title"></span>
+		</a>
+	</div>
+
+	<div id="screen">
+		<div id="pref-pane" class="pane">
+			<div class="column">
+				<span class="column-label">
+					文字
+				</span>
+
+				<div id="char-selection" class="column-body"></div>
+			</div>
+
+			<div class="column">
+				<span class="column-label">
+					追加文字
+				</span>
+
+				<div class="column-body">
+					<textarea id="add-chars"></textarea>
+				</div>
+			</div>
+
+			<div class="column">
+				<span class="column-label">
+					生成回数
+				</span>
+
+				<div class="column-body">
+					<input id="count" type="number" min="1" step="1">
+				</div>
+			</div>
+
+			<div class="column">
+				<span class="column-label">
+					文字数
+				</span>
+
+				<div class="column-body">
+					<input id="length" type="number" min="1" step="1">
+				</div>
+			</div>
+
+			<div id="btn-container" class="column">
+				<button id="btn-initialise" class="btn">
+					リセット
+				</button>
+
+				<button id="btn-execute" class="btn">
+					実行
+				</button>
+
+				<button id="btn-clear" class="btn">
+					クリア
+				</button>
+			</div>
+		</div>
+
+		<div id="res-pane" class="pane">
+			<div id="result-column">
+				<div id="container-download">
+					<img id="btn-download" class="item-btn" src="images/svg/download.svg">
+					<label id="label-download" for="btn-download">
+						Download All
+					</label>
+				</div>
+			</div>
+
+			<div id="result-list">
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
