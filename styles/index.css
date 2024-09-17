@@ -112,7 +112,7 @@ input[type=number], textarea, input[type=number]:focus, textarea:focus{
 
 @media screen and (max-width: 960px) {
 	body{
-		padding-bottom: 128px;
+		padding-bottom: 32px;
 	}
 
 	#screen{
